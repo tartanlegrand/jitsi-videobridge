@@ -1,0 +1,229 @@
+services:
+  # ============================================================
+  # XMPP Server
+  # ============================================================
+  prosody:
+    image: jitsi/prosody:stable
+    container_name: benchmark-prosody
+    environment:
+      - XMPP_DOMAIN=meet.jitsi
+      - XMPP_AUTH_DOMAIN=auth.meet.jitsi
+      - XMPP_MUC_DOMAIN=conference.meet.jitsi
+      - XMPP_INTERNAL_MUC_DOMAIN=internal.auth.meet.jitsi
+      - JICOFO_COMPONENT_SECRET=focus
+      - JICOFO_AUTH_USER=focus
+      - JICOFO_AUTH_PASSWORD=focus
+      - JVB_AUTH_USER=focus
+      - JVB_AUTH_PASSWORD=focus
+    networks:
+      - benchmark-net
+
+  # ============================================================
+  # Jicofo - Conference Focus
+  # ============================================================
+  jicofo:
+    image: jitsi/jicofo:stable
+    container_name: benchmark-jicofo
+    depends_on:
+      - prosody
+    environment:
+      - XMPP_SERVER=prosody
+      - XMPP_DOMAIN=meet.jitsi
+      - XMPP_AUTH_DOMAIN=auth.meet.jitsi
+      - XMPP_INTERNAL_MUC_DOMAIN=internal.auth.meet.jitsi
+      - JICOFO_AUTH_USER=focus
+      - JICOFO_AUTH_PASSWORD=focus
+    volumes:
+      - ./custom-jicofo.conf:/config/custom-jicofo.conf:Z
+    networks:
+      - benchmark-net
+
+  # ============================================================
+  # Web Frontend
+  # ============================================================
+  web:
+    image: jitsi/web:stable
+    container_name: benchmark-web
+    depends_on:
+      - prosody
+    ports:
+      - "8445:443"
+      - "8082:80"
+    environment:
+      - PUBLIC_URL=https://benchmark-web
+      - XMPP_DOMAIN=meet.jitsi
+      - XMPP_AUTH_DOMAIN=auth.meet.jitsi
+      - XMPP_MUC_DOMAIN=conference.meet.jitsi
+      - XMPP_INTERNAL_MUC_DOMAIN=internal.auth.meet.jitsi
+      - XMPP_BOSH_URL_BASE=http://prosody:5280
+      - ENABLE_P2P=false
+    networks:
+      - benchmark-net
+
+  # ============================================================
+  # JVB Native (GraalVM native image)
+  # ============================================================
+  jvb-native:
+    image: jvb-native:latest
+    build:
+      context: ..
+      dockerfile: Dockerfile.native
+    container_name: benchmark-jvb-native
+    profiles:
+      - native
+    depends_on:
+      - prosody
+    ports:
+      - "10000:10000/udp"
+      - "8080:8080/tcp"
+    volumes:
+      - ../config-full:/home/jvb/config:Z
+      - ./logs:/logs:Z
+    command: >
+      -Dvideobridge.http-servers.private.host=0.0.0.0
+      -Dvideobridge.apis.rest.enabled=true
+      -Dvideobridge.stats.interval=5
+      -Dvideobridge.health.interval=5
+      -Dvideobridge.health.require-valid-address=false
+      -Djava.net.preferIPv4Stack=true
+      -Dconfig.file=/home/jvb/config/jvb.conf
+      -Djava.util.logging.config.file=/home/jvb/config/logging.properties
+      -Dvideobridge.load-management.load-measurements.packet-rate.enabled=false
+      -Dvideobridge.load-management.reducer-enabled=false
+    networks:
+      - benchmark-net
+
+  # ============================================================
+  # JVB JVM (standard jitsi/jvb image)
+  # ============================================================
+  jvb-jvm:
+    image: jitsi/jvb:stable
+    container_name: benchmark-jvb-jvm
+    profiles:
+      - jvm
+    depends_on:
+      - prosody
+    ports:
+      - "10000:10000/udp"
+      - "8080:8080/tcp"
+    environment:
+      - JVB_PORT=10000
+      - JVB_STUN_SERVERS=meet-jit-si-turnrelay.jitsi.net:443
+      - XMPP_SERVER=prosody
+      - XMPP_DOMAIN=meet.jitsi
+      - XMPP_AUTH_DOMAIN=auth.meet.jitsi
+      - XMPP_INTERNAL_MUC_DOMAIN=internal.auth.meet.jitsi
+      - JVB_AUTH_USER=focus
+      - JVB_AUTH_PASSWORD=focus
+      - JVB_BREWERY_MUC=jvbbrewery@internal.auth.meet.jitsi
+      - JVB_MUC_NICKNAME=jvb1
+    networks:
+      - benchmark-net
+
+  # ============================================================
+  # Selenium Grid Hub
+  # ============================================================
+  selenium-hub:
+    image: selenium/hub:latest
+    container_name: benchmark-selenium-hub
+    ports:
+      - "4445:4444"
+    networks:
+      - benchmark-net
+
+  # ============================================================
+  # Chrome Nodes (6 nodes x 10 sessions = 60 participants max)
+  # ============================================================
+  chrome-node-1:
+    image: selenium/node-chrome:latest
+    container_name: benchmark-chrome-1
+    depends_on:
+      - selenium-hub
+    shm_size: 2gb
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - SE_NODE_MAX_SESSIONS=10
+      - SE_NODE_OVERRIDE_MAX_SESSIONS=true
+    networks:
+      - benchmark-net
+
+  chrome-node-2:
+    image: selenium/node-chrome:latest
+    container_name: benchmark-chrome-2
+    depends_on:
+      - selenium-hub
+    shm_size: 2gb
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - SE_NODE_MAX_SESSIONS=10
+      - SE_NODE_OVERRIDE_MAX_SESSIONS=true
+    networks:
+      - benchmark-net
+
+  chrome-node-3:
+    image: selenium/node-chrome:latest
+    container_name: benchmark-chrome-3
+    depends_on:
+      - selenium-hub
+    shm_size: 2gb
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - SE_NODE_MAX_SESSIONS=10
+      - SE_NODE_OVERRIDE_MAX_SESSIONS=true
+    networks:
+      - benchmark-net
+
+  chrome-node-4:
+    image: selenium/node-chrome:latest
+    container_name: benchmark-chrome-4
+    depends_on:
+      - selenium-hub
+    shm_size: 2gb
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - SE_NODE_MAX_SESSIONS=10
+      - SE_NODE_OVERRIDE_MAX_SESSIONS=true
+    networks:
+      - benchmark-net
+
+  chrome-node-5:
+    image: selenium/node-chrome:latest
+    container_name: benchmark-chrome-5
+    depends_on:
+      - selenium-hub
+    shm_size: 2gb
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - SE_NODE_MAX_SESSIONS=10
+      - SE_NODE_OVERRIDE_MAX_SESSIONS=true
+    networks:
+      - benchmark-net
+
+  chrome-node-6:
+    image: selenium/node-chrome:latest
+    container_name: benchmark-chrome-6
+    depends_on:
+      - selenium-hub
+    shm_size: 2gb
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - SE_NODE_MAX_SESSIONS=10
+      - SE_NODE_OVERRIDE_MAX_SESSIONS=true
+    networks:
+      - benchmark-net
+
+networks:
+  benchmark-net:
+    driver: bridge
