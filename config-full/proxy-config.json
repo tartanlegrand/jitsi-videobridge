@@ -40,11 +40,5 @@
             "org.glassfish.hk2.api.ProxyCtl",
             "jakarta.ws.rs.ext.Providers"
         ]
-    },
-    {
-        "interfaces": [
-            "org.glassfish.hk2.api.ProxyCtl",
-            "jakarta.ws.rs.core.Application"
-        ]
     }
 ]

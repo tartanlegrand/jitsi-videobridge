@@ -1,5 +1,1079 @@
 [
     {
+        "name": "boolean"
+    },
+    {
+        "name": "char[]"
+    },
+    {
+        "name": "com.fasterxml.jackson.core.Versioned",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "com.fasterxml.jackson.databind.deser.Deserializers[]"
+    },
+    {
+        "name": "com.fasterxml.jackson.databind.deser.KeyDeserializers[]"
+    },
+    {
+        "name": "com.fasterxml.jackson.databind.deser.ValueInstantiators[]"
+    },
+    {
+        "name": "com.fasterxml.jackson.databind.ext.Java7SupportImpl",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "com.fasterxml.jackson.databind.ser.Serializers[]"
+    },
+    {
+        "name": "com.fasterxml.jackson.module.jakarta.xmlbind.JakartaXmlBindAnnotationIntrospector",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "com.fasterxml.jackson.module.jakarta.xmlbind.JakartaXmlBindAnnotationModule",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "com.fasterxml.jackson.module.jakarta.xmlbind.deser.DataHandlerDeserializer",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "com.fasterxml.jackson.module.jakarta.xmlbind.ser.DataHandlerSerializer",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "com.fasterxml.jackson.module.jaxb.JaxbAnnotationIntrospector",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "com.fasterxml.jackson.module.kotlin.KotlinModule",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "com.sun.crypto.provider.AESCipher$General",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "com.sun.crypto.provider.ARCFOURCipher",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "com.sun.crypto.provider.ChaCha20Cipher$ChaCha20Poly1305",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "com.sun.crypto.provider.DESCipher",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "com.sun.crypto.provider.DESedeCipher",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "com.sun.crypto.provider.DHParameters",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "com.sun.crypto.provider.GaloisCounterMode$AESGCM",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "com.sun.crypto.provider.TlsMasterSecretGenerator",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "com.sun.xml.internal.stream.XMLInputFactoryImpl",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "com.typesafe.config.Config",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "com.typesafe.config.ConfigMergeable",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "com.typesafe.config.ConfigObject",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "com.typesafe.config.ConfigValue",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "io.prometheus.client.Striped64",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "jakarta.activation.DataSource",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "jakarta.inject.Inject",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "jakarta.inject.Named",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "jakarta.inject.Singleton",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "jakarta.ws.rs.container.ContainerRequestFilter",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "jakarta.ws.rs.container.ResourceInfo",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "jakarta.ws.rs.core.Application",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "jakarta.ws.rs.core.Feature",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "jakarta.ws.rs.ext.ExceptionMapper",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "jakarta.ws.rs.ext.MessageBodyReader",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "jakarta.ws.rs.ext.MessageBodyWriter",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "jakarta.xml.bind.JAXBContext",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "jakarta.xml.bind.JAXBException",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.awt.image.RenderedImage",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.io.Serializable",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.lang.Boolean",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.lang.Byte",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.lang.CharSequence",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.lang.Class",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.lang.ClassValue",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.lang.Class[]"
+    },
+    {
+        "name": "java.lang.Comparable",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.lang.Double",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.lang.Enum",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.lang.Float",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.lang.Integer",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.lang.Iterable",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.lang.Long",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.lang.Number",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.lang.Object",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.lang.Short",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.lang.String",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.lang.System",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.lang.Thread",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.lang.annotation.Retention",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.lang.annotation.Target",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.lang.constant.Constable",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.lang.management.ManagementFactory",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.lang.management.RuntimeMXBean",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.net.InetAddress",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.security.AccessController",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.security.AlgorithmParametersSpi",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.security.KeyStoreSpi",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.time.Duration",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.time.temporal.TemporalAmount",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.util.Collection",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.util.List",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.util.Map",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.util.concurrent.Executors",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "java.util.concurrent.Flow$Subscriber",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "javassist.util.proxy.MethodHandler",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "javax.xml.transform.Source",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "javax.xml.transform.dom.DOMSource",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "javax.xml.transform.sax.SAXSource",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "javax.xml.transform.stream.StreamSource",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "jdk.internal.ValueBased",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "kotlin.Any",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "kotlin.Boolean",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "kotlin.CharSequence",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "kotlin.Comparable",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "kotlin.Double",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "kotlin.Enum",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "kotlin.Int",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "kotlin.Long",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "kotlin.Metadata",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "kotlin.Number",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "kotlin.SafePublicationLazyImpl",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "kotlin.String",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "kotlin.collections.Collection",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "kotlin.collections.Iterable",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "kotlin.collections.List",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "kotlin.collections.Map",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "kotlin.collections.MutableMap",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "kotlin.collections.Set",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "kotlin.jvm.internal.DefaultConstructorMarker",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "kotlin.reflect.jvm.internal.ReflectionFactoryImpl",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "kotlin.reflect.jvm.internal.impl.km.jvm.internal.JvmMetadataExtensions",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "kotlin.reflect.jvm.internal.impl.load.java.ErasedOverridabilityCondition",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "kotlin.reflect.jvm.internal.impl.load.java.FieldOverridabilityCondition",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "kotlin.reflect.jvm.internal.impl.load.java.JavaIncompatibilityRulesOverridabilityCondition",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.bouncycastle.tls.CipherSuite",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.eclipse.jetty.http.Http1FieldPreEncoder",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.eclipse.jetty.servlets.CrossOriginFilter",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.eclipse.jetty.util.TypeUtil",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.hk2.api.DynamicConfiguration",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.hk2.internal.PerThreadContext",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.hk2.osgiresourcelocator.ServiceLoader",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.hk2.utilities.Binder",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.hk2.utilities.binding.AbstractBinder",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jaxb.runtime.v2.ContextFactory",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.inject.hk2.ContextInjectionResolverImpl",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.inject.hk2.Hk2InjectionManagerFactory",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.inject.hk2.Hk2RequestScope",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.inject.hk2.InstanceSupplierFactoryBridge",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.inject.hk2.JerseyErrorService",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.inject.hk2.RequestContext",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
         "name": "org.glassfish.jersey.inject.hk2.SupplierFactoryBridge",
         "allDeclaredConstructors": true,
         "allPublicConstructors": true,
@@ -9,39 +1083,3099 @@
         "allPublicFields": true
     },
     {
-        "name": "org.glassfish.jersey.server.internal.monitoring.CoreMonitoringBinder$1",
+        "name": "org.glassfish.jersey.internal.JaxrsProviders",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.internal.RuntimeDelegateImpl",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.internal.config.ExternalPropertiesAutoDiscoverable",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.internal.inject.AbstractBinder",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.internal.inject.Binder",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.internal.inject.Custom",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.internal.inject.ParamConverters$AggregatedProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.internal.inject.ReferencingFactory",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.jackson.JacksonFeature",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.jackson.internal.DefaultJacksonJaxbJsonProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.jackson.internal.JacksonAutoDiscoverable",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.jackson.internal.jackson.jaxrs.base.JsonMappingExceptionMapper",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.jackson.internal.jackson.jaxrs.base.JsonParseExceptionMapper",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.jackson.internal.jackson.jaxrs.base.ProviderBase",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.jackson.internal.jackson.jaxrs.json.JacksonJaxbJsonProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.jackson.internal.jackson.jaxrs.json.JacksonJsonProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.jetty.JettyHttpContainerProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.logging.LoggingFeatureAutoDiscoverable",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.message.internal.AbstractFormProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.message.internal.AbstractMessageReaderWriterProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.message.internal.BasicTypesMessageProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.message.internal.ByteArrayProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.message.internal.DataSourceProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.message.internal.EnumMessageProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.message.internal.FileProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.message.internal.FormMultivaluedMapProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.message.internal.FormProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.message.internal.InputStreamProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.message.internal.ReaderProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.message.internal.RenderedImageProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.message.internal.SourceProvider$DomSourceReader",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.message.internal.SourceProvider$SaxSourceReader",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.message.internal.SourceProvider$SourceWriter",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.message.internal.SourceProvider$StreamSourceReader",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.message.internal.StreamingOutputProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.message.internal.StringMessageProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.process.Inflector",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.process.internal.RequestScope",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.server.BackgroundScheduler",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.server.ChunkedResponseWriter",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.server.ManagedAsyncExecutor",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.server.ResourceConfig",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.server.ServerExecutorProvidersConfigurator$DefaultBackgroundSchedulerProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.server.ServerExecutorProvidersConfigurator$DefaultManagedAsyncExecutorProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.server.filter.internal.ServerFiltersAutoDiscoverable",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.server.internal.JsonWithPaddingInterceptor",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.server.internal.MappableExceptionWrapperInterceptor",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.server.internal.monitoring.MonitoringAutodiscoverable",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.server.internal.monitoring.MonitoringContainerListener",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.server.internal.process.RequestProcessingConfigurator$ContainerRequestFactory",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.server.internal.process.RequestProcessingConfigurator$UriRoutingContextFactory",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.server.internal.process.RequestProcessingContextReference",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.server.model.Parameter$ServerParameterService",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.server.wadl.WadlFeature",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.server.wadl.internal.WadlAutoDiscoverable",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.server.wadl.processor.OptionsMethodProcessor$GenericOptionsInflector",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.server.wadl.processor.OptionsMethodProcessor$PlainTextOptionsInflector",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.servlet.WebComponent$HttpServletRequestReferencingFactory",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.servlet.WebComponent$HttpServletResponseReferencingFactory",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.servlet.WebComponent$WebComponentBinder",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.servlet.async.AsyncContextDelegateProviderImpl",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.servlet.init.FilterUrlMappingsProviderImpl",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.servlet.internal.spi.ServletContainerProvider[]"
+    },
+    {
+        "name": "org.glassfish.jersey.spi.AbstractThreadPoolProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.spi.ScheduledThreadPoolExecutorProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.glassfish.jersey.spi.ThreadPoolExecutorProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.ice4j.ice.KeepAliveStrategy",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.ice4j.ice.NominationStrategy",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.ice4j.ice.harvest.HarvestConfig",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.ice4j.ice.harvest.HarvestConfig$StaticMapping",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jitsi.rest.Health",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jitsi.rest.Version",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jitsi.videobridge.ice.Harvesters",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jitsi.videobridge.ice.Harvesters$Companion",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jitsi.videobridge.load_management.CpuMeasurement",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jitsi.videobridge.rest.binders.ServiceBinder",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jitsi.videobridge.rest.filters.ConfigFilter",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jitsi.videobridge.rest.prometheus.Prometheus",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jitsi.videobridge.rest.root.Application",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jitsi.videobridge.rest.root.colibri.debug.Debug",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jitsi.videobridge.rest.root.colibri.drain.Drain",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jitsi.videobridge.rest.root.colibri.mucclient.MucClient",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jitsi.videobridge.rest.root.colibri.shutdown.Shutdown",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jitsi.videobridge.rest.root.colibri.stats.Stats",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jitsi.videobridge.rest.root.colibri.v2.conferences.Conferences",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jitsi.videobridge.rest.root.debug.Debug",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jitsi.videobridge.rest.root.debug.DebugFeatures",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jitsi.videobridge.rest.root.debug.EndpointDebugFeatures",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jitsi.videobridge.rest.root.stats.Stats",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jitsi.xmpp.mucclient.MucClientConfiguration",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smack.ReconnectionManager",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smack.android.AndroidSmackInitializer",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smack.compress.packet.Compressed",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smack.compress.packet.Failure",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smack.experimental.ExperimentalInitializer",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smack.extensions.ExtensionsInitializer",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smack.im.SmackImInitializer",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smack.initializer.VmArgInitializer",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smack.java7.Java7SmackInitializer",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smack.legacy.LegacyInitializer",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smack.packet.TlsFailure",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smack.packet.TlsProceed",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smack.roster.Roster",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smack.roster.provider.RosterPacketProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smack.roster.provider.RosterVerStreamFeatureProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smack.roster.provider.SubscriptionPreApprovalStreamFeatureProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smack.sasl.javax.SASLJavaXSmackInitializer",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smack.sasl.packet.SaslNonza$Challenge",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smack.sasl.packet.SaslNonza$SASLFailure",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smack.sasl.packet.SaslNonza$Success",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smack.sasl.provided.SASLProvidedSmackInitializer",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smack.sm.provider.StreamManagementStreamFeatureProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smack.tcp.TCPInitializer",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smack.util.dns.dnsjava.DNSJavaResolver",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smack.util.dns.javax.JavaxResolver",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smack.util.dns.minidns.MiniDnsResolver",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smack.xml.stax.StaxXmlPullParserFactory",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.address.provider.MultipleAddressesProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.amp.provider.AMPExtensionProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.attention.packet.AttentionExtension$Provider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.blocking.provider.BlockContactsIQProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.blocking.provider.BlockListIQProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.blocking.provider.BlockedErrorExtensionProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.blocking.provider.UnblockContactsIQProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.bob.provider.BoBDataExtensionProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.bob.provider.BoBIQProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamManager",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.bytestreams.ibb.provider.CloseIQProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.bytestreams.ibb.provider.DataPacketProvider$IQProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.bytestreams.ibb.provider.DataPacketProvider$PacketExtensionProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.bytestreams.ibb.provider.OpenIQProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.bytestreams.socks5.provider.BytestreamsProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.caps.EntityCapsManager",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.caps.provider.CapsExtensionProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.chatstates.provider.ChatStateExtensionProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.commands.AdHocCommandManager",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.commands.provider.AdHocCommandDataProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.commands.provider.AdHocCommandDataProvider$BadActionError",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.commands.provider.AdHocCommandDataProvider$BadLocaleError",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.commands.provider.AdHocCommandDataProvider$BadPayloadError",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.commands.provider.AdHocCommandDataProvider$BadSessionIDError",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.commands.provider.AdHocCommandDataProvider$MalformedActionError",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.commands.provider.AdHocCommandDataProvider$SessionExpiredError",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.delay.provider.DelayInformationProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.delay.provider.LegacyDelayInformationProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.disco.ServiceDiscoveryManager",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.disco.provider.DiscoverInfoProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.disco.provider.DiscoverItemsProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.filetransfer.FileTransferManager",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.forward.provider.ForwardedProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.geoloc.provider.GeoLocationProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.iqlast.LastActivityManager",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.iqlast.packet.LastActivity$Provider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.iqprivate.PrivateDataManager$PrivateDataIQProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.iqregister.provider.RegistrationProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.iqregister.provider.RegistrationStreamFeatureProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.iqversion.VersionManager",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.iqversion.provider.VersionProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.jingle.provider.JingleErrorProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.jingle.provider.JingleProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.jiveproperties.provider.JivePropertiesExtensionProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.last_interaction.provider.IdleProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.mediaelement.MediaElementManager",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.message_correct.provider.MessageCorrectProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.mood.provider.MoodProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.muc.MultiUserChatManager",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.muc.bookmarkautojoin.MucBookmarkAutojoinManager",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.muc.packet.GroupChatInvitation$Provider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.muc.provider.MUCAdminProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.muc.provider.MUCOwnerProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.muc.provider.MUCUserProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.nick.provider.NickProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.offline.packet.OfflineMessageInfo$Provider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.offline.packet.OfflineMessageRequest$Provider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.omemo.OmemoInitializer",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.ox.util.OpenPgpInitializer",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.ping.PingManager",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.ping.provider.PingProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.privacy.PrivacyListManager",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.privacy.provider.PrivacyProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.pubsub.provider.AffiliationProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.pubsub.provider.AffiliationsProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.pubsub.provider.ConfigEventProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.pubsub.provider.EventProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.pubsub.provider.FormNodeProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.pubsub.provider.ItemProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.pubsub.provider.ItemsProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.pubsub.provider.PubSubProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.pubsub.provider.RetractEventProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.pubsub.provider.SimpleNodeProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.pubsub.provider.SubscriptionProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.pubsub.provider.SubscriptionsProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.receipts.DeliveryReceipt$Provider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.receipts.DeliveryReceiptManager",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.receipts.DeliveryReceiptRequest$Provider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.rsm.provider.RSMSetProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.search.UserSearch$Provider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.sharedgroups.packet.SharedGroupsInfo$Provider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.shim.provider.HeaderProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.shim.provider.HeadersProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.si.provider.StreamInitiationProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.softwareinfo.form.SoftwareInfoForm",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.time.EntityTimeManager",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.time.provider.TimeProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.usertune.provider.UserTuneProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.vcardtemp.VCardManager",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.vcardtemp.provider.VCardProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.xdata.XDataManager",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.xdata.provider.DataFormProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.xdatalayout.XDataLayoutManager",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.xdatavalidation.XDataValidationManager",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.xhtmlim.XHTMLManager",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.xhtmlim.provider.XHTMLExtensionProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jvnet.hk2.external.generator.ServiceLocatorGeneratorImpl",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jvnet.hk2.internal.DynamicConfigurationServiceImpl",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jvnet.hk2.internal.ServiceLocatorRuntimeImpl",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.osgi.framework.BundleReference",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.slf4j.jul.JULServiceProvider",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.management.VMManagementImpl",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.security.pkcs12.PKCS12KeyStore",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.security.pkcs12.PKCS12KeyStore$DualFormatPKCS12",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.security.provider.DSA$SHA224withDSA",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.security.provider.DSA$SHA256withDSA",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.security.provider.NativePRNG",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.security.provider.SHA",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.security.provider.SHA2$SHA224",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.security.provider.SHA2$SHA256",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.security.provider.SHA5$SHA384",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.security.provider.SHA5$SHA512",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.security.provider.X509Factory",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.security.rsa.PSSParameters",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.security.rsa.RSAKeyFactory$Legacy",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.security.rsa.RSAPSSSignature",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.security.rsa.RSASignature$SHA224withRSA",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.security.ssl.KeyManagerFactoryImpl$SunX509",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.security.ssl.SSLContextImpl$DefaultSSLContext",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.security.ssl.TrustManagerFactoryImpl$PKIXFactory",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.security.x509.AuthorityInfoAccessExtension",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.security.x509.AuthorityKeyIdentifierExtension",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.security.x509.BasicConstraintsExtension",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.security.x509.CRLDistributionPointsExtension",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.security.x509.CertificatePoliciesExtension",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.security.x509.ExtendedKeyUsageExtension",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.security.x509.KeyUsageExtension",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.security.x509.NetscapeCertTypeExtension",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.security.x509.PrivateKeyUsageExtension",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.security.x509.SubjectKeyIdentifierExtension",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.text.resources.cldr.FormatData",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.text.resources.cldr.FormatData_en",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.text.resources.cldr.FormatData_en_US",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "sun.util.resources.cldr.CalendarData",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "kotlin.reflect.jvm.internal.AbstractKType",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "kotlin.reflect.jvm.internal.KTypeImpl",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "kotlin.reflect.jvm.internal.KClassImpl",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "kotlin.jvm.internal.TypeReference",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.xdata.packet.DataForm",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "org.jivesoftware.smack.packet.StartTls",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
         "allDeclaredConstructors": true
     },
     {
-        "name": "jakarta.ws.rs.core.UriInfo",
-        "allDeclaredMethods": true
+        "name": "org.jivesoftware.smack.packet.Bind",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
     },
     {
-        "name": "org.glassfish.jersey.server.ExtendedUriInfo",
-        "allDeclaredMethods": true
+        "name": "org.jivesoftware.smack.packet.Session",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
     },
     {
-        "name": "jakarta.ws.rs.container.ResourceInfo",
-        "allDeclaredMethods": true
+        "name": "org.jivesoftware.smack.packet.StreamOpen",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
     },
     {
-        "name": "jakarta.ws.rs.core.HttpHeaders",
-        "allDeclaredMethods": true
+        "name": "org.jivesoftware.smack.packet.StreamClose",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
     },
     {
-        "name": "jakarta.ws.rs.core.Request",
-        "allDeclaredMethods": true
+        "name": "org.jivesoftware.smack.packet.Mechanisms",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
     },
     {
-        "name": "jakarta.ws.rs.core.SecurityContext",
-        "allDeclaredMethods": true
+        "name": "org.jivesoftware.smack.packet.Session$Feature",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
     },
     {
-        "name": "jakarta.ws.rs.ext.Providers",
-        "allDeclaredMethods": true
+        "name": "org.jivesoftware.smackx.caps.packet.CapsExtension",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
     },
     {
-        "name": "jakarta.ws.rs.core.Application",
-        "allDeclaredMethods": true
+        "name": "org.jivesoftware.smackx.disco.packet.DiscoverInfo",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.disco.packet.DiscoverItems",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.disco.packet.DiscoverInfo$Feature",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.disco.packet.DiscoverInfo$Identity",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.ping.packet.Ping",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.muc.packet.MUCUser",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.muc.packet.MUCAdmin",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.muc.packet.MUCOwner",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.muc.packet.MUCInitialPresence",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.muc.packet.MUCItem",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.muc.packet.MUCUser$Status",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.muc.packet.GroupChatInvitation",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.muc.packet.Destroy",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.delay.packet.DelayInformation",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.forward.packet.Forwarded",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.xdata.packet.DataForm$Field",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.iqversion.packet.Version",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.iqlast.packet.LastActivity",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.nick.packet.Nick",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.rsm.packet.RSMSet",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smack.sasl.packet.SaslNonza$AuthMechanism",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smack.sasl.packet.SaslNonza$Response",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smack.sm.packet.StreamManagement$StreamManagementFeature",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smack.sm.packet.StreamManagement$AckAnswer",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smack.sm.packet.StreamManagement$AckRequest",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smack.sm.packet.StreamManagement$Enable",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smack.sm.packet.StreamManagement$Enabled",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smack.sm.packet.StreamManagement$Resume",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smack.sm.packet.StreamManagement$Resumed",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smack.sm.packet.StreamManagement$Failed",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.json.packet.JsonPacketExtension",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smack.packet.AbstractError",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smack.packet.StreamError",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smack.packet.StanzaError",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.health.HealthCheckIQ",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.health.HealthCheckIQProvider",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.health.HealthStatusPacketExt",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.health.HealthStatusPacketExt$Health",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri2.ConferenceModifyIQ",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri2.ConferenceModifyIQProvider",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri2.ConferenceModifiedIQ",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri2.ConferenceModifiedIQProvider",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri2.AbstractConferenceModificationIQ",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri2.AbstractConferenceEntity",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri2.Colibri2Endpoint",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri2.Colibri2Relay",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri2.Media",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri2.Transport",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri2.Sctp",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri2.Sources",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri2.MediaSource",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri2.Capability",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri2.Connect",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri2.Connects",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri2.ForceMute",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri2.InitialLastN",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri2.Colibri2Error",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri2.IqProviderUtils",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri.ColibriConferenceIQ",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri.ColibriStatsIQ",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri.ColibriStatsIqProvider",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri.ForcefulShutdownIQ",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri.ForcefulShutdownIqProvider",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri.GracefulShutdownIQ",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri.GracefulShutdownIqProvider",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.videobridge.xmpp.Smack",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.videobridge.xmpp.XmppConnection",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.videobridge.xmpp.XmppConnection$EventHandler",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.videobridge.Videobridge",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.videobridge.Videobridge$XmppConnectionEventHandler",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.mucclient.MucClient",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.mucclient.MucClientManager",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.mucclient.IQListener",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.jingle.IceUdpTransportPacketExtension",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.jingle.DtlsFingerprintPacketExtension",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.jingle.CandidatePacketExtension",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri.ColibriStatsExtension",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true,
+        "unsafeAllocated": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri.ColibriStatsExtension$Stat",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true,
+        "unsafeAllocated": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri.ColibriStatsExtension$Provider",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true,
+        "unsafeAllocated": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.jingle.PayloadTypePacketExtension",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true,
+        "unsafeAllocated": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.jingle.ParameterPacketExtension",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true,
+        "unsafeAllocated": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.jingle.RtcpFbPacketExtension",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true,
+        "unsafeAllocated": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.jingle.RTPHdrExtPacketExtension",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true,
+        "unsafeAllocated": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.jingle.ExtmapAllowMixedPacketExtension",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true,
+        "unsafeAllocated": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.jingle.RtpDescriptionPacketExtension",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true,
+        "unsafeAllocated": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.jingle.ContentPacketExtension",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true,
+        "unsafeAllocated": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.jingle.JingleIQ",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true,
+        "unsafeAllocated": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.jingle.JingleIQProvider",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true,
+        "unsafeAllocated": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.jingle.SctpMapExtension",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true,
+        "unsafeAllocated": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri2.Media$Provider",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true,
+        "unsafeAllocated": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri2.Transport$Provider",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true,
+        "unsafeAllocated": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri2.Sctp$Provider",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true,
+        "unsafeAllocated": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri2.Sources$Provider",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true,
+        "unsafeAllocated": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri2.MediaSource$Provider",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true,
+        "unsafeAllocated": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri2.Capability$Provider",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true,
+        "unsafeAllocated": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri2.Colibri2Endpoint$Provider",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true,
+        "unsafeAllocated": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri2.AbstractConferenceEntity$Provider",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true,
+        "unsafeAllocated": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.jingle.SourcePacketExtension",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true,
+        "unsafeAllocated": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.jingle.SourceGroupPacketExtension",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true,
+        "unsafeAllocated": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.jingle.SourceRidGroupPacketExtension",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true,
+        "unsafeAllocated": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.AbstractPacketExtension",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true,
+        "unsafeAllocated": true
+    },
+    {
+        "name": "org.jivesoftware.smack.provider.IntrospectionProvider$PacketExtensionIntrospectionProvider",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true,
+        "unsafeAllocated": true
+    },
+    {
+        "name": "org.jivesoftware.smack.util.PacketParserUtils",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true,
+        "unsafeAllocated": true
+    },
+    {
+        "name": "org.jivesoftware.smack.provider.ProviderManager",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smack.provider.IQProviderInfo",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smack.provider.ExtensionProviderInfo",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smack.provider.ProviderFileLoader",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smack.provider.IntrospectionProvider",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smack.provider.IntrospectionProvider$IQIntrospectionProvider",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smack.SmackInitialization",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smack.SmackConfiguration",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.delay.provider.AbstractDelayInformationProvider",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jivesoftware.smackx.muc.provider.MUCParserUtils",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.colibri.ColibriStatsExtensionProvider",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.jingle.PayloadTypeProvider",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.jingle.RtpDescriptionPacketExtensionProvider",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.jingle.IceUdpTransportPacketExtensionProvider",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.jingle.DtlsFingerprintPacketExtensionProvider",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.jitsi.xmpp.extensions.jingle.CandidatePacketExtensionProvider",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
     }
 ]

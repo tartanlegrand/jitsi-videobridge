@@ -1,0 +1,70 @@
+{
+    "resources": {
+        "includes": [
+            {
+                "pattern": "org/jivesoftware/smack/.*\\.xml$"
+            },
+            {
+                "pattern": "org/jivesoftware/smackx/.*\\.xml$"
+            },
+            {
+                "pattern": "org/jivesoftware/smack/.*\\.properties$"
+            },
+            {
+                "pattern": "META-INF/services/.*"
+            },
+            {
+                "pattern": "META-INF/smack-config\\.xml$"
+            },
+            {
+                "pattern": "org/jivesoftware/smack/.*\\.providers$"
+            },
+            {
+                "pattern": "org/jivesoftware/smackx/.*\\.providers$"
+            },
+            {
+                "pattern": "org/jivesoftware/smackx/.*\\.xml$"
+            },
+            {
+                "pattern": "reference\\.conf$"
+            },
+            {
+                "pattern": ".*\\.properties$"
+            },
+            {
+                "pattern": ".*logging\\.properties$"
+            },
+            {
+                "pattern": "org/jitsi/.*\\.xml$"
+            },
+            {
+                "pattern": "org/jitsi/.*\\.properties$"
+            },
+            {
+                "pattern": "org/jitsi/.*\\.conf$"
+            },
+            {
+                "pattern": "org/bouncycastle/.*"
+            },
+            {
+                "pattern": "mozilla/.*"
+            },
+            {
+                "pattern": "com/typesafe/config/.*"
+            },
+            {
+                "pattern": "org/eclipse/jetty/.*\\.xml$"
+            },
+            {
+                "pattern": "org/eclipse/jetty/.*\\.properties$"
+            },
+            {
+                "pattern": "org/eclipse/jetty/.*\\.dtd$"
+            },
+            {
+                "pattern": "META-INF/jersey-module-version$"
+            }
+        ]
+    },
+    "bundles": []
+}

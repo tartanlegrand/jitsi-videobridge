@@ -1,0 +1,41 @@
+[
+    {
+        "name": "java.lang.String"
+    },
+    {
+        "name": "java.lang.Number"
+    },
+    {
+        "name": "java.lang.Long"
+    },
+    {
+        "name": "java.lang.Integer"
+    },
+    {
+        "name": "java.lang.Boolean"
+    },
+    {
+        "name": "java.lang.Double"
+    },
+    {
+        "name": "java.lang.Float"
+    },
+    {
+        "name": "java.util.ArrayList"
+    },
+    {
+        "name": "java.util.HashMap"
+    },
+    {
+        "name": "java.util.LinkedHashMap"
+    },
+    {
+        "name": "java.util.HashSet"
+    },
+    {
+        "name": "java.net.InetAddress"
+    },
+    {
+        "name": "java.net.InetSocketAddress"
+    }
+]

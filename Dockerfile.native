@@ -1,61 +1,89 @@
-# Stage 1: Build the fat jar
+# =============================================================================
+# Jitsi Videobridge — GraalVM Native Image Build
+# =============================================================================
+# Multi-stage build that compiles JVB into a standalone native binary.
+# Result: ~60ms startup, ~80MB RAM under load (vs ~1000ms / ~280MB on JVM).
+#
+# Usage:
+#   docker build -f Dockerfile.native -t jvb-native .
+#   docker run -p 8080:8080 -p 10000:10000/udp jvb-native \
+#     -Dvideobridge.http-servers.private.host=0.0.0.0
+#
+# See load-test-env/README.md for benchmark instructions.
+# =============================================================================
+
+# ---------------------------------------------------------------------------
+# Stage 1: Build the fat JAR with Maven
+# ---------------------------------------------------------------------------
 FROM maven:3.9.9-eclipse-temurin-21 AS builder
 
 WORKDIR /app
 
-# Copy pom.xml files first to leverage cache
+# Copy pom.xml files first to leverage Docker layer cache
 COPY pom.xml .
 COPY jvb/pom.xml jvb/
 COPY rtp/pom.xml rtp/
 COPY jitsi-media-transform/pom.xml jitsi-media-transform/
 
-# Copy config files potentially needed for build (though usually not for compilation)
 COPY config config/
-
-# Copy source code
 COPY jvb/src jvb/src
 COPY rtp/src rtp/src
 COPY jitsi-media-transform/src jitsi-media-transform/src
 
-# Build the fat jar
-# -pl jvb : build only the jvb project (and dependencies)
-# -am: also make dependencies
-# -P buildFatJar : enable the profile for fat jar
-# -DskipTests : skip tests for faster build
+# Build fat JAR: -pl jvb (target module), -am (include dependencies),
+# -P buildFatJar (shade plugin profile), -DskipTests (faster build)
 RUN mvn clean package -pl jvb -am -P buildFatJar -DskipTests
 
-# Stage 2: Build the native image
+# ---------------------------------------------------------------------------
+# Stage 2: Compile to native binary with GraalVM
+# ---------------------------------------------------------------------------
 FROM ghcr.io/graalvm/native-image-community:25 AS native-builder
 
 WORKDIR /app
 
-# Copy the fat jar from the builder stage
 COPY --from=builder /app/jvb/target/jitsi-videobridge-*-jar-with-dependencies.jar jvb.jar
 
-# Copy generated GraalVM configuration
+# GraalVM reflection/proxy/resource configs (generated via Dockerfile.agent)
 COPY config-full /app/config-full
 
-# Build the native image
-# --no-fallback: fail if native image cannot be built (don't fallback to JVM)
-# -H:+ReportExceptionStackTraces: better error reporting
-# -H:ConfigurationFileDirectories: use generated config
+# Native image compilation flags:
+#   --no-fallback              Fail if native compilation is incomplete (no JVM fallback)
+#   -H:ConfigurationFileDirectories  Point to reflection/proxy/resource metadata
+#   --enable-url-protocols     HTTP/HTTPS for REST API and OHTTP client
+#   --enable-monitoring        JMX support for runtime monitoring
+#   --install-exit-handlers    Graceful shutdown handling
+#   --initialize-at-build-time=kotlin  Pre-initialize Kotlin stdlib for faster startup
+#   --initialize-at-run-time=org.bouncycastle  BouncyCastle crypto must init at runtime
 RUN native-image \
     --no-fallback \
     -H:+ReportExceptionStackTraces \
     -H:ConfigurationFileDirectories=/app/config-full \
+    --enable-url-protocols=http,https \
+    --enable-monitoring=jmxclient,jmxserver \
+    --install-exit-handlers \
+    -H:+ReportUnsupportedElementsAtRuntime \
+    --initialize-at-build-time=kotlin \
+    --initialize-at-run-time=org.bouncycastle \
     -jar jvb.jar \
     jvb
 
-# Stage 3: Create the final image
+# ---------------------------------------------------------------------------
+# Stage 3: Minimal runtime image
+# ---------------------------------------------------------------------------
 FROM debian:bookworm-slim
 
 WORKDIR /app
 
-# Copy the native executable
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    libfreetype6 libfontconfig1 curl && \
+    rm -rf /var/lib/apt/lists/*
+
 COPY --from=native-builder /app/jvb .
 
-# Expose ports (standard JVB ports)
-EXPOSE 9600/udp 8080/tcp 443/tcp
+# JVB ports: 10000/udp (media), 8080/tcp (REST API + metrics), 443/tcp (oTLS)
+EXPOSE 10000/udp 8080/tcp 443/tcp
 
-# Run the native executable
+HEALTHCHECK --interval=10s --timeout=3s --start-period=5s --retries=3 \
+    CMD curl -f http://localhost:8080/about/health || exit 1
+
 ENTRYPOINT ["./jvb"]
