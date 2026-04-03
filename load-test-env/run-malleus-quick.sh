@@ -17,7 +17,7 @@ docker run --rm --name malleus-test \
   -w /app \
   maven:3.9.9-eclipse-temurin-21 \
   mvn test \
-    -Dthreadcount=1 \
+    -Dthreadcount=3 \
     -Djitsi-meet.tests.toRun=MalleusJitsificus \
     -Djitsi-meet.instance.url=https://benchmark-web \
     -Djitsi-meet.isRemote=true \
@@ -28,7 +28,7 @@ docker run --rm --name malleus-test \
     -Dorg.jitsi.malleus.senders=3 \
     -Dorg.jitsi.malleus.audio_senders=3 \
     -Dorg.jitsi.malleus.duration=60 \
-    -Dorg.jitsi.malleus.join_delay=0 \
+    -Dorg.jitsi.malleus.join_delay=3000 \
     -Dorg.jitsi.malleus.room_name_prefix=loadtest \
     -Dorg.jitsi.malleus.enable_p2p=false \
     -Dorg.jitsi.malleus.enable.headless=true \

@@ -21,6 +21,7 @@ import org.jitsi.xmpp.extensions.colibri.ColibriStatsIqProvider
 import org.jitsi.xmpp.extensions.colibri.ForcefulShutdownIqProvider
 import org.jitsi.xmpp.extensions.colibri.GracefulShutdownIqProvider
 import org.jitsi.xmpp.extensions.colibri2.IqProviderUtils
+import org.jitsi.xmpp.extensions.health.HealthCheckIQ
 import org.jitsi.xmpp.extensions.health.HealthCheckIQProvider
 import org.jitsi.xmpp.extensions.jingle.DtlsFingerprintPacketExtension
 import org.jitsi.xmpp.extensions.jingle.IceCandidatePacketExtension
@@ -28,14 +29,32 @@ import org.jitsi.xmpp.extensions.jingle.IceRtcpmuxPacketExtension
 import org.jitsi.xmpp.extensions.jingle.IceUdpTransportPacketExtension
 import org.jivesoftware.smack.provider.ProviderManager
 import org.jxmpp.stringprep.XmppStringPrepUtil
+import java.util.logging.Logger
 
 object Smack {
+    private val logger = Logger.getLogger(Smack::class.java.name)
+
     fun initialize() {
-        org.jitsi.xmpp.Smack.initialize()
+        logger.info("Initializing Smack for JVB...")
+        try {
+            org.jitsi.xmpp.Smack.initialize()
+            logger.info("Base Smack initialization complete.")
+        } catch (e: Exception) {
+            logger.severe("Base Smack initialization failed: ${e.message}")
+            e.printStackTrace()
+        }
 
         XmppStringPrepUtil.setMaxCacheSizes(XmppClientConnectionConfig.config.jidCacheSize)
 
         registerProviders()
+
+        // Verify providers are registered (native image debugging)
+        val healthNs = HealthCheckIQ.NAMESPACE
+        val healthEl = HealthCheckIQ.ELEMENT
+        val healthProvider = ProviderManager.getIQProvider(healthEl, healthNs)
+        logger.info("HealthCheck IQ provider ($healthEl/$healthNs): ${healthProvider?.javaClass?.name ?: "NOT REGISTERED"}")
+        val colibri2Provider = ProviderManager.getIQProvider("conference-modify", "jitsi:colibri2")
+        logger.info("Colibri2 IQ provider: ${colibri2Provider?.javaClass?.name ?: "NOT REGISTERED"}")
     }
 
     private fun registerProviders() {

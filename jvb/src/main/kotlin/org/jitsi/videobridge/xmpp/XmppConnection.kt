@@ -203,8 +203,10 @@ class XmppConnection : IQListener {
      */
     override fun handleIq(iq: IQ?, mucClient: MucClient): IQ? {
         if (iq == null) {
+            logger.info("handleIq: received null IQ")
             return null
         }
+        logger.info("handleIq: received IQ class=${iq.javaClass.name} type=${iq.type} from=${iq.from}")
         // colibri2 requests are logged at the conference level.
         if (iq !is ConferenceModifyIQ) {
             logger.cdebug { "RECV: ${iq.toXML()}" }
@@ -219,6 +221,9 @@ class XmppConnection : IQListener {
     }
 
     private fun handleIqRequest(iq: IQ, mucClient: MucClient): IQ? {
+        // Native image debugging: log the actual IQ type received
+        logger.info("handleIqRequest: type=${iq.javaClass.name}, childElement=${iq.childElementName}, namespace=${iq.childElementNamespace}")
+
         val handler = eventHandler ?: return createError(
             iq,
             StanzaError.Condition.service_unavailable,
