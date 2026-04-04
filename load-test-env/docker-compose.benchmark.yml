@@ -88,6 +88,8 @@ services:
       -Djava.net.preferIPv4Stack=true
       -Dconfig.file=/home/jvb/config/jvb.conf
       -Dvideobridge.load-management.reducer-enabled=false
+      -Dorg.ice4j.ice.harvest.DISABLE_AWS_HARVESTER=true
+      -Dorg.ice4j.ice.harvest.STUN_MAPPING_HARVESTER_ADDRESSES=""
     networks:
       - benchmark-net
 

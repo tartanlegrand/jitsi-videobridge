@@ -251,7 +251,11 @@ public class Conference
                             }
                             if (VideobridgeConfig.getRedactRemoteAddresses())
                             {
-                                reqStr = RedactColibri.Companion.redactIp(reqStr);
+                                try
+                                {
+                                    reqStr = RedactColibri.Companion.redactIp(reqStr);
+                                }
+                                catch (Exception ignored) { /* XSLT may fail in native image */ }
                             }
                             return "RECV colibri2 request: " + reqStr;
                         });
@@ -273,7 +277,11 @@ public class Conference
                             }
                             if (VideobridgeConfig.getRedactRemoteAddresses())
                             {
-                                reqStr = RedactColibri.Companion.redactIp(reqStr);
+                                try
+                                {
+                                    reqStr = RedactColibri.Companion.redactIp(reqStr);
+                                }
+                                catch (Exception ignored) { /* XSLT may fail in native image */ }
                             }
                             logger.warn("Took " + processingDelay + " ms to process an IQ (total delay "
                                     + totalDelay + " ms): " + reqStr);
