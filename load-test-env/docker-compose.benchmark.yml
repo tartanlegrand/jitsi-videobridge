@@ -73,7 +73,11 @@ services:
     profiles:
       - native
     depends_on:
-      - prosody
+      prosody:
+        condition: service_started
+      jicofo:
+        condition: service_started
+    restart: unless-stopped
     ports:
       - "10000:10000/udp"
       - "8080:8080/tcp"
