@@ -58,6 +58,9 @@ services:
       - XMPP_BOSH_URL_BASE=http://prosody:5280
       - ENABLE_P2P=false
       - ENABLE_PREJOIN_PAGE=false
+      - JVB_WS_DOMAIN=benchmark-jvb-native
+      - JVB_WS_SERVER_ID=jvb1
+      - ENABLE_COLIBRI_WEBSOCKET=1
     networks:
       - benchmark-net
 
@@ -92,6 +95,9 @@ services:
       -Djava.net.preferIPv4Stack=true
       -Dconfig.file=/home/jvb/config/jvb.conf
       -Dvideobridge.load-management.reducer-enabled=false
+      -Dvideobridge.websockets.enabled=true
+      -Dvideobridge.websockets.server-id=jvb1
+      -Dvideobridge.websockets.domains=benchmark-jvb-native:8080
       -Dorg.ice4j.ice.harvest.DISABLE_AWS_HARVESTER=true
       -Dorg.ice4j.ice.harvest.STUN_MAPPING_HARVESTER_ADDRESSES=""
     networks:

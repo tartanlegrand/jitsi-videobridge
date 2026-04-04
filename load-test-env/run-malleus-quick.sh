@@ -28,7 +28,7 @@ docker run --rm --name malleus-test \
     -Dorg.jitsi.malleus.senders=3 \
     -Dorg.jitsi.malleus.audio_senders=3 \
     -Dorg.jitsi.malleus.duration=60 \
-    -Dorg.jitsi.malleus.join_delay=3000 \
+    -Dorg.jitsi.malleus.join_delay=0 \
     -Dorg.jitsi.malleus.room_name_prefix=loadtest \
     -Dorg.jitsi.malleus.enable_p2p=false \
     -Dorg.jitsi.malleus.enable.headless=true \
