@@ -1,36 +1,23 @@
+# Override jvb-jvm to run with native-image-agent for config tracing
 services:
-  jvb-agent:
+  jvb-jvm:
+    image: jvb-agent:latest
     build:
       context: ..
       dockerfile: Dockerfile.agent
-    container_name: benchmark-jvb-agent
-    profiles:
-      - agent
-    depends_on:
-      prosody:
-        condition: service_started
-      jicofo:
-        condition: service_started
-    ports:
-      - "10000:10000/udp"
-      - "8080:8080/tcp"
     volumes:
       - ../config-full:/home/jvb/config:Z
       - ./agent-output:/app/config-output:Z
-    command: >
-      -agentlib:native-image-agent=config-output-dir=/app/config-output,config-write-period-secs=10,config-write-initial-delay-secs=0
-      -Dvideobridge.http-servers.private.host=0.0.0.0
-      -Dvideobridge.apis.rest.enabled=true
-      -Dvideobridge.stats.interval=5
-      -Dvideobridge.health.interval=5
-      -Dvideobridge.health.require-valid-address=false
-      -Djava.net.preferIPv4Stack=true
-      -Dconfig.file=/home/jvb/config/jvb.conf
-      -Dvideobridge.load-management.reducer-enabled=false
-      -Dvideobridge.websockets.enabled=true
-      -Dvideobridge.websockets.server-id=jvb1
-      -Dvideobridge.websockets.domains=benchmark-jvb-agent:8080
-      -jar
-      jvb.jar
-    networks:
-      - benchmark-net
+    entrypoint:
+      - java
+      - -agentlib:native-image-agent=config-output-dir=/app/config-output,config-write-period-secs=10,config-write-initial-delay-secs=0
+      - -Dvideobridge.http-servers.private.host=0.0.0.0
+      - -Dvideobridge.apis.rest.enabled=true
+      - -Dvideobridge.stats.interval=5
+      - -Dvideobridge.health.interval=5
+      - -Dvideobridge.health.require-valid-address=false
+      - -Djava.net.preferIPv4Stack=true
+      - -Dconfig.file=/home/jvb/config/jvb.conf
+      - -Dvideobridge.load-management.reducer-enabled=false
+      - -jar
+      - jvb.jar
